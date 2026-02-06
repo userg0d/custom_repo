@@ -1,6 +1,6 @@
 # Template file for 'libssc'
 pkgname=libssc
-version=0.2.2
+version=0.3.0
 revision=1
 build_style=meson
 hostmakedepends="pkg-config protobuf protobuf-c glib-devel"
@@ -10,7 +10,7 @@ maintainer="userg0d"
 license="GPL-3.0-or-later"
 homepage="https://libssc.dylanvanassche.be/"
 distfiles="https://codeberg.org/DylanVanAssche/libssc/archive/v${version}.tar.gz"
-checksum=4d9e2ae4b0548f19ad53a56d365d72e31d2bb72b4ce7b234a2b69875bc24268f
+checksum=e6758330b7ba48019092aacf909a189977956fe96a0b767ab32da6773c479ef6
 
 libssc-devel_package() {
 	depends="${makedepends} ${sourcepkg}-${version}_${revision}"
