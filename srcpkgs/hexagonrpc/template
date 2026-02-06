@@ -1,6 +1,6 @@
 # Template file for 'hexagonrpc'
 pkgname=hexagonrpc
-version=0.3.2
+version=0.4.0
 revision=2
 build_style=meson
 configure_args="-Dhexagonrpcd_verbose=false"
@@ -9,7 +9,7 @@ maintainer="Arseniy <me@adomerle.pw>"
 license="GPL-3.0-or-later"
 homepage="https://github.com/linux-msm/hexagonrpc"
 distfiles="https://github.com/linux-msm/${pkgname}/archive/refs/tags/v${version}.tar.gz"
-checksum=ff0b04153a29699463bb64195366d6fecc580473be75e7f2c695f1b1ce1bc806
+checksum=fe742549a2672902d59a90dafd741a9a0acbeca059e07ff5130e2b525a66574f
 
 post_install() {
 	vsv hexagonrpcd-adsp-rootpd
